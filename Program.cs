@@ -22,7 +22,6 @@ namespace Laba_3_zavd1
                 for (int i = 1; i <= n; i++) // Починаємо з 1, щоб уникнути ділення на нуль
                 {
                     sum += 1.0 / i;
-                    Console.WriteLine($"i = {i}, sum = {sum}");
                 }
 
                 Console.WriteLine($"Сума s = {sum}");
